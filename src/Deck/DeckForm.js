@@ -70,6 +70,7 @@ export default function DeckForm({ mode }) {
             value={formData.name}
             onChange={handleChange}
             placeholder="Deck Name"
+            required = "true"
           />
         </div>
         <div className="row form-group">
@@ -82,6 +83,7 @@ export default function DeckForm({ mode }) {
             value={formData.description}
             onChange={handleChange}
             placeholder="Brief description of the deck"
+            required = "true"
           />
         </div>
         <div className="row">

@@ -68,6 +68,7 @@ export default function CardForm({ mode = "create" }) {
             value={formData.front}
             onChange={handleChange}
             placeholder="Front side of card"
+            required = "true"
           />
         </div>
         <div className="row form-group">
@@ -80,6 +81,7 @@ export default function CardForm({ mode = "create" }) {
             value={formData.back}
             onChange={handleChange}
             placeholder="Back side of card"
+            required = "true" 
           />
         </div>
         <div className="row">
